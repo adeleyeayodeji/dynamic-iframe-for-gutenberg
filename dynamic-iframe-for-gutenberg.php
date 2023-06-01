@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: Dynamic Iframe for Gutenberg
+Plugin Name: Dynamic Iframe for WP
 Plugin URI: https://wordpress.org/plugins/dynamic-iframe-for-wp/
 Description: Easily insert iframes into the block editor.
 Author: Adeleye Ayodeji
