@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-iframe-for-gutenberg",
+  "name": "dynamic-iframe-for-wp",
   "version": "1.0.0",
   "scripts": {
     "build": "wp-scripts build",

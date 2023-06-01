@@ -7,11 +7,11 @@ const { Fragment } = wp.element;
 const { Placeholder } = wp.components;
 const { registerBlockType } = wp.blocks;
 
-registerBlockType("adeleyeayodeji/dynamic-iframe-for-gutenberg", {
-  title: __("Dynamic Iframe", "dynamic-iframe-for-gutenberg"),
+registerBlockType("adeleyeayodeji/dynamic-iframe-for-wp", {
+  title: __("Dynamic Iframe", "dynamic-iframe-for-wp"),
   description: __(
     "Easily insert dynamic iframes into the block editor.",
-    "dynamic-iframe-for-gutenberg"
+    "dynamic-iframe-for-wp"
   ),
   keywords: [
     __("iframe"),
@@ -95,7 +95,7 @@ registerBlockType("adeleyeayodeji/dynamic-iframe-for-gutenberg", {
     ) : (
       <Placeholder
         icon="admin-site-alt"
-        label={__("Please fill the Iframe URL", "dynamic-iframe-for-gutenberg")}
+        label={__("Please fill the Iframe URL", "dynamic-iframe-for-wp")}
       />
     );
 

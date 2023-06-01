@@ -15,9 +15,9 @@ export default class Inspector extends Component {
 
     return (
       <InspectorControls key="inspector">
-        <PanelBody title={__("Settings", "dynamic-iframe-for-gutenberg")}>
+        <PanelBody title={__("Settings", "dynamic-iframe-for-wp")}>
           <TextControl
-            label={__("Iframe URL", "dynamic-iframe-for-gutenberg")}
+            label={__("Iframe URL", "dynamic-iframe-for-wp")}
             value={attributes.iframeSrc}
             onChange={(value) => {
               //check if the url is youtube with watch in it
@@ -34,37 +34,37 @@ export default class Inspector extends Component {
             }}
           />
           <ToggleControl
-            label={__("Allow fullscreen", "dynamic-iframe-for-gutenberg")}
+            label={__("Allow fullscreen", "dynamic-iframe-for-wp")}
             checked={attributes.allowFullscreen}
             onChange={(value) => {
               setAttributes({ allowFullscreen: value });
             }}
           />
           <ToggleControl
-            label={__("Add lazyload attribute", "dynamic-iframe-for-gutenberg")}
+            label={__("Add lazyload attribute", "dynamic-iframe-for-wp")}
             checked={attributes.useLazyload}
             onChange={(value) => {
               setAttributes({ useLazyload: value });
             }}
           />
         </PanelBody>
-        <PanelBody title={__("Style options", "dynamic-iframe-for-gutenberg")}>
+        <PanelBody title={__("Style options", "dynamic-iframe-for-wp")}>
           <TextControl
-            label={__("Width", "dynamic-iframe-for-gutenberg")}
+            label={__("Width", "dynamic-iframe-for-wp")}
             value={attributes.iframeWidth}
             onChange={(value) => {
               setAttributes({ iframeWidth: value });
             }}
           />
           <TextControl
-            label={__("Height", "dynamic-iframe-for-gutenberg")}
+            label={__("Height", "dynamic-iframe-for-wp")}
             value={attributes.iframeHeight}
             onChange={(value) => {
               setAttributes({ iframeHeight: value });
             }}
           />
           <ToggleControl
-            label={__("Use !important", "dynamic-iframe-for-gutenberg")}
+            label={__("Use !important", "dynamic-iframe-for-wp")}
             checked={attributes.useImportant}
             onChange={(value) => {
               setAttributes({ useImportant: value });
