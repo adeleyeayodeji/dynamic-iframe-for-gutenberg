@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
  * Init plugin
  */
 
-class DynamicIframeForGutenbergBlocks
+class ADE_DynamicIframeForGutenbergBlocks
 {
 
     private $slug;
@@ -60,4 +60,4 @@ class DynamicIframeForGutenbergBlocks
 }
 
 //init
-new DynamicIframeForGutenbergBlocks('dynamic-iframe-for-wp');
+new ADE_DynamicIframeForGutenbergBlocks('dynamic-iframe-for-wp');
